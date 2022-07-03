@@ -34,3 +34,24 @@ body{
     border-radius: 15px;
     transition: all 1s;
 }
+.banner-img img{
+    width: 100%;
+    height: auto;
+}
+.service_section{
+    background-color: rgba(0, 0, 0, 0.651);
+    margin: -4px;
+    padding: 0;  
+    width: 100%;
+    padding-left: 4px;
+}
+.service_title h1{
+    margin: 0;
+    color: wheat;
+    text-align: center;
+    padding-top: 15px;
+}
+.services{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
