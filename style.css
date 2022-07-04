@@ -42,8 +42,9 @@ body{
     background-color: rgba(0, 0, 0, 0.651);
     margin: -4px;
     padding: 0;  
-    width: 100%;
-    padding-left: 4px;
+    width: 98%;
+    padding-left: 31px;
+    padding-bottom: 20px;
 }
 .service_title h1{
     margin: 0;
@@ -55,7 +56,43 @@ body{
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
-.icon i{
-    font-size: 20px;
-    color: white;
+.service{
+    border: 1px solid rgba(255, 166, 0, 0.418);
+    margin: 5px;
+    box-shadow: 6px 6px 0px rgb(128 128 128 / 35%);
+    text-align: center;
+    width: 80%;
+}
+.service h4{
+    text-align: center;
+    color: antiquewhite;
+}
+.service span {
+    color: antiquewhite;
+}
+.service:hover{
+    transform: scale(1.2);
+    transition: all ease 2s;
+}
+.info_section{
+    display: flex;
+    padding-top: 20px;
+    background-image: linear-gradient(90deg,orange,red);
+    padding-bottom: 20px;
+    
+}
+.info_img img{
+    width: 70%;
+    margin-left: 5px;
+}
+
+.footer{
+    text-align: center;
+    background-image: linear-gradient(90deg,gray,rgb(0, 0, 0));
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.footer p{
+    margin: 0;
+    color: aliceblue;
 }
